@@ -1,0 +1,21 @@
+packages:
+
+1. gmapping: This package contains a ROS wrapper for OpenSlam's Gmapping. The gmapping package provides laser-based SLAM (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Using slam_gmapping, you can create a 2-D occupancy grid map (like a building floorplan) from laser and pose data collected by a mobile robot.
+
+2. turtlebot_teleop: Provides teleoperation using joysticks or keyboard.
+
+3. turtlebot_rviz_launchers: Launchers for visualizing TurtleBot, load a preconfigured rviz workspace. Automatically load the robot model, trajectories, and map.
+
+4. turtlebot_gazebo: Gazebo launchers and worlds for TurtleBot simulation, deploy a turtlebot in a gazebo environment by linking the world file to it.
+
+5. turtlebot_simulator: create simulation of the turtlebot
+
+6. turtlebot_interactions: Visualisation and interactive tools for the TurtleBot
+
+7. ros-kinetic-navigation: A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base.
+
+8. ros-kinetic-map-server: map_server provides the map_server ROS Node, which offers map data as a ROS Service. It also provides the map_saver command-line utility, which allows dynamically generated maps to be saved to file.
+
+9. ros-kinetic-move-base: The move_base package provides an implementation of an action that, given a goal in the world, will attempt to reach it with a mobile base.
+
+10. ros-kinetic-amcl: amcl is a probabilistic localization system for a robot moving in 2D. 
